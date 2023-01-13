@@ -234,6 +234,7 @@ body{
     font-weight: 100;
     font-size: 1vw;
     color: #5e5e5e;
+    text-align: left;
 }
 
 .noVisible{
@@ -545,9 +546,10 @@ svg{
     }
 
     .info{
-        text-align: center;
+        text-align: left;
         font-size: 5vw;
         color: #727273;
+
     }
 
 

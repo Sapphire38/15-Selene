@@ -37,9 +37,9 @@ let option = document.getElementById("option")
 function  enviar(){
      
     if(option.value == "voy"){
-        mensajes = ` <a id="envio" href="https://api.whatsapp.com/send?phone=5493512375533&text=Hola, soy ${nombre.value} y voy a los 15 de Sele.">enviar</a>`
+        mensajes = ` <a id="envio" href="https://api.whatsapp.com/send?phone=5493512375533&text=Hola, soy/somos ${nombre.value} y voy/vamos a los 15 de Sele.">enviar</a>`
     }else{
-        mensajes = ` <a id="envio" href="https://api.whatsapp.com/send?phone=5493512375533&text=Hola, soy ${nombre.value} y no puedo ir a los 15 de Sele.">enviar</a>`
+        mensajes = ` <a id="envio" href="https://api.whatsapp.com/send?phone=5493512375533&text=Hola, soy/somos ${nombre.value} y no puedo/podemos ir a los 15 de Sele.">enviar</a>`
     }
 
    

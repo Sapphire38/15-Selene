@@ -52,3 +52,15 @@ function  enviar(){
   
 
 }
+
+
+let date = new Date();
+let dia = date.getDate();
+let mes = date.getMonth();
+
+
+if(dia >= 6 && mes >= 2){
+    document.getElementById("form").style.display = "none"
+}
+
+
